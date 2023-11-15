@@ -10,6 +10,12 @@ body {
 
 .header {
     display: flex;
+    justify-content: space-between;
+}
+
+.home-button {
+    display: flex;
+    gap: 8px;
 }
 
 .footer {
