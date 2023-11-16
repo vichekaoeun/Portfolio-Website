@@ -66,9 +66,20 @@ body {
     height: 100%;
 }
 
-.projects {
-    padding: 80px;
+.container {
     background-color: #e9e9e9;
+
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.projects {
+    padding: 50px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -142,10 +153,15 @@ img {
 
 .socials {
     display: flex;
-    gap: 8px;
+    gap: 16px;
 }
 
 a {
     text-decoration: none;
-    color: none;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: black;
 }
